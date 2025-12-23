@@ -9,7 +9,7 @@
 
 {#snippet hicon(icon: string)}
   <span class={`flex p1.5 bg-secondary text-xl rounded-full`}>
-    {@html icons[icon]}
+    {@html icons[icon as keyof typeof icons]}
   </span>
 {/snippet}
 

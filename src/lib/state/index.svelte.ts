@@ -13,10 +13,10 @@ export let data: State = $state({
     photo: null,
   },
 
-  workExp: [{}],
-  education: [{}],
-  projects: [{}],
-  skills: [{}],
+  workExp: [],
+  education: [],
+  projects: [],
+  skills: [],
 });
 
 export let ui = $state({
@@ -25,7 +25,15 @@ export let ui = $state({
 });
 
 export const addCard = (type: ListsData) => {
-  data[type].push({});
+  if (type === "workExp") {
+    data.workExp.push({ company: null, title: null, date: null, desc: null });
+  } else if (type === "education") {
+    data.education.push({ institution: null, date: null, qualification: null });
+  } else if (type === "projects") {
+    data.projects.push({ name: null, desc: null, link: null });
+  } else if (type === "skills") {
+    data.skills.push({ name: null, icon: null });
+  }
 };
 
 export const deleteCard = (type: ListsData, index: number) => {

@@ -33,7 +33,7 @@
     <p class="text-lg">{work.company}</p>
 
     <ul class="list-disc ml5">
-      {#each textAreaFormat(work.desc) as line}
+      {#each textAreaFormat(work.desc ?? "") as line}
         <li>{line}</li>
       {/each}
     </ul>
