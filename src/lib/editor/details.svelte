@@ -91,4 +91,14 @@
     iconL="i-mdi:linkedin"
     bind:value={data.details.linkedin}
   />
+
+  <label for="photo" class="col-span-2">Profile Photo URL</label>
+  <Input
+    id="photo"
+    type="url"
+    placeholder="Enter photo URL (e.g., https://example.com/photo.jpg)"
+    iconL="i-lucide:image"
+    bind:value={data.details.photo}
+    class="col-span-2"
+  />
 </div>

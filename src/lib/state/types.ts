@@ -15,6 +15,7 @@ export interface Details {
   github?: string | null;
   linkedin?: string | null;
   role?: string | null;
+  photo?: string | null;
 }
 
 export interface Education {

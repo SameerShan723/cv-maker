@@ -1,10 +1,11 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "my-app",
       "devDependencies": {
-        "@haze-ui/preset": "^0.0.6",
+        "@haze-ui/preset": "^0.0.7",
         "@haze-ui/svelte": "^0.0.10",
         "@iconify/json": "^2.2.384",
         "@sveltejs/adapter-auto": "^6.1.0",
@@ -91,7 +92,7 @@
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.25.8", "", { "os": "win32", "cpu": "x64" }, "sha512-cn3Yr7+OaaZq1c+2pe+8yxC8E144SReCQjN6/2ynubzYjvyqZjTXfQJpAcQpsdJq3My7XADANiYGHoFC69pLQw=="],
 
-    "@haze-ui/preset": ["@haze-ui/preset@0.0.6", "", {}, "sha512-212vCrSSvIrRFNjJ149v63PfaPBlNu3/grl7Arz5DF6/kQtgwipynXP4voCkd+Zprw8jWaygEXCQfaiS+bwdNg=="],
+    "@haze-ui/preset": ["@haze-ui/preset@0.0.7", "", {}, "sha512-wpZIcmbvX8Ns/N+M6PkDJ4mY6wSz7iNCZsiAF+sEo3TXWLhZFTOAw9YfZb6JiNuuIV2ZPehYQHHZkGTqRI0h/g=="],
 
     "@haze-ui/svelte": ["@haze-ui/svelte@0.0.10", "", { "peerDependencies": { "svelte": "^5.0.0" } }, "sha512-FbsPMzDGm13O9TG4oxhx7uwI4wWLCEGyjRvaHo7aZ3UHtFljxdFzoIiiRTWGBAZaxi6kxS/fZiV3RtlBljJ+0A=="],
 
