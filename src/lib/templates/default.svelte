@@ -57,7 +57,7 @@
     </span>
 
     <ul class="list-disc space-y-2 text-secondary-fg ml-2">
-      {#each textAreaFormat(work?.desc) as x}
+      {#each textAreaFormat(work?.desc ?? "") as x}
         <li class="ml-2">{x}.</li>
       {/each}
     </ul>

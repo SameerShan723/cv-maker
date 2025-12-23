@@ -89,7 +89,7 @@ h4 {
 
 .doc {
   width: 210mm;
-  min-height: 297mm;
+  /* min-height: 297mm; */
   transform-origin: top center;
   transition: scale 0.3s cubic-bezier(0.22, 1, 0.36, 1);
   @apply p10 rounded bg-bg flex flex-col gap3 rounded trcking-tight;

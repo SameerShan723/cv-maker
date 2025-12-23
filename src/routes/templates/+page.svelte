@@ -35,7 +35,7 @@
   {#each List as x}
     <div
       style="scale: 0.3; transform-origin: top left;"
-      class="grid gap3 w-[63mm] min-h-[89.1mm] flex-shrink-0"
+      class="grid gap3 w-[63mm] h-[150mm] flex-shrink-0"
     >
       <a
         class="badge text-primary-fg w-full text-5xl h-fit p5 justify-center capitalize"
